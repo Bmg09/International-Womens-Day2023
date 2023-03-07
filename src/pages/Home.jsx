@@ -177,7 +177,7 @@ const Home = () => {
           </div>
         </div>
 
-        <p className="sm:text-[1.25rem] text-[1.1rem] text-[var(--grey)]">
+        <p className="sm:text-[1.25rem] text-[1.1rem] text-[var(--grey)] w-[350px] sm:w-[500px]">
           These are just a few examples of the many Indian women who have
           contributed to women's empowerment. There are countless others who
           have worked tirelessly to improve the lives of women in India and
