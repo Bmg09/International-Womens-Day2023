@@ -13,44 +13,44 @@ const About = () => {
   const reverse = true;
 
   return (
-    <div className="bg-[#000] text-white w-full p-[1rem] md:p-[2rem]">
+    <div className="bg-black text-white w-full h-full sm:p-8 p-4">
       <a
         href="/"
-        className="text-[#fff] hover:text-[var(--grey)] hover:border-b-2 border-[var(--grey)]"
+        className="text-white hover:text-grey hover:border-b-2 border-grey"
       >
         Back
       </a>
 
-      <div className="relative md:w-[850px] w-full h-auto m-auto mt-[2rem] text-center flex flex-col gap-3 items-center">
-        <p className="md:text-[1.2rem] text-[1.4rem] uppercase text-[var(--white)] text-bold mb-4">
+      <div className="relative w-full max-w-screen-lg h-full min-h-screen m-auto mt-8 text-center flex flex-col gap-3 items-center">
+        <p className="sm:text-2xl text-3xl uppercase font-bold mb-4">
           The precious gems of Life
         </p>
 
         <CardSection data={MotherData} />
 
-        <div className="border__line_style md:w-[250px] w-[350px] bg-[#fff]" />
+        <div className="border__line_style sm:w-1/4 w-1/2 bg-white" />
 
         <CardSection data={SisterData} reverse={reverse} />
 
-        <div className="border__line_style md:w-[250px] w-[350px] bg-[#fff]" />
+        <div className="border__line_style sm:w-1/4 w-1/2 bg-white" />
 
         <CardSection data={FriendData} />
 
-        <div className="border__line_style bg-[#fff] md:w-[250px] w-[350px]" />
+        <div className="border__line_style sm:w-1/4 w-1/2 bg-white" />
 
         <CardSection data={WifeData} reverse={reverse} />
 
-        <div className="border__line_style bg-[#fff] md:w-[250px] w-[350px]" />
+        <div className="border__line_style sm:w-1/4 w-1/2 bg-white" />
 
         <CardSection data={DaughterData} />
 
-        <div className="border__line_style bg-[#fff] md:w-[250px] w-[350px]" />
+        <div className="border__line_style sm:w-1/4 w-1/2 bg-white" />
 
-        <p className="md:w-[500px] md:text-[1.3rem] text-[#f0e4ce] my-4">
+        <p className="sm:w-3/4 sm:text-xl text-lg text-white sm:my-10 my-4">
           Dear men, let us work together to empower the women in our lives. Let
           us listen to their voices, support their dreams, and celebrate their
           achievements. Let us stand up against gender inequality,
-          discrimination, and violence. Let us be allies and advocates for
+          discrimination, and violence. Letus be allies and advocates for
           women's rights and equality. Let us create a world where women can
           thrive, lead, and make a positive impact. Remember, gender equality is
           not just a women's issue, it's a human issue. Let us all do our part
@@ -62,6 +62,4 @@ const About = () => {
     </div>
   );
 };
-
-export default About;
 
